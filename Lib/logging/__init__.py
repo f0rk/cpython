@@ -2286,3 +2286,7 @@ def captureWarnings(capture):
         if _warnings_showwarning is not None:
             warnings.showwarning = _warnings_showwarning
             _warnings_showwarning = None
+
+
+if __name__ == "__main__":
+    basicConfig()
